@@ -71,11 +71,11 @@
 						<goals>
 							<goal>compile</goal>
 						</goals>
-						<configuration>
-							<source>${source.version}</source>
-							<target>${target.version}</target>
-						</configuration>
 					</execution>
+					<configuration>
+						<source>${source.version}</source>
+						<target>${target.version}</target>
+					</configuration>
 				</executions>
 			</plugin>
 			<plugin>
