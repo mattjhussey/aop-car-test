@@ -72,11 +72,11 @@
 							<goal>compile</goal>
 						</goals>
 					</execution>
-					<configuration>
-						<source>${source.version}</source>
-						<target>${target.version}</target>
-					</configuration>
 				</executions>
+				<configuration>
+					<source>${source.version}</source>
+					<target>${target.version}</target>
+				</configuration>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
